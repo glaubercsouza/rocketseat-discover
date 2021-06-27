@@ -1,19 +1,9 @@
-// criar um aplicativo de frases motivacionais
+// function expression
+// function anonymous
 
-// declaration - declaração da função
-// function statement
-function createPhrases() {
-  console.log('Estudar é muito bom')
-  console.log('Paciência e persistência')
-  console.log('Revisão é mão do aprendizado')
+// parâmetros (parameters)
+const sum = function(number1, number2){
+  console.log(number1 + number2)
 }
 
-// executar a função
-// rodar, chamar, invocar
-// execute, run, call, invoke
-createPhrases()
-createPhrases()
-createPhrases()
-createPhrases()
-
-console.log('fim do programa')
+sum(2, 3)
