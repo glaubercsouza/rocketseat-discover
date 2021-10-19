@@ -8,8 +8,9 @@ const copo = fazerSuco('banana', 'maçã')
 
 console.log(copo)*/
 
+
 // function scope
-let subject = 'create video'
+/*let subject = 'create video'
 
 function createThink(subject) {
   subject = 'study'
@@ -17,4 +18,12 @@ function createThink(subject) {
 }
 
 console.log(subject)
-console.log(createThink(subject))
+console.log(createThink(subject))*/
+
+// function hoisting
+
+sayMyName();
+
+function sayMyName() {
+  console.log('Glauber')
+}
