@@ -22,8 +22,16 @@ console.log(createThink(subject))*/
 
 // function hoisting
 
-sayMyName();
+/*sayMyName();
 
 function sayMyName() {
   console.log('Glauber')
+}*/
+
+// arrow function
+
+const sayMyName = (name) => {
+  console.log(name)
 }
+
+sayMayName('Glauber')
