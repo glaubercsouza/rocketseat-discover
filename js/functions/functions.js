@@ -38,7 +38,7 @@ sayMayName('Glauber')*/
 
 // callback function
 
-function sayMyName(name) {
+/*function sayMyName(name) {
   console.log('antes de executar a função callback')
 
   name()
@@ -50,4 +50,26 @@ sayMyName(
   () => {
     console.log('estou em uma callback')
   }
-)
+)*/
+
+// function constructor
+
+/*
+  Function() constructor
+
+    * expressão new
+    * criar um novo objeto
+    * this keyword
+*/
+
+function Person(name) {
+  this.name = name  
+  this.walk = function() {
+    return this.name + " está andando"
+  }
+}
+
+const glauber = new Person("Glauber")
+const joao = new Person("João")
+console.log(glauber.walk())
+console.log(joao.walk())
